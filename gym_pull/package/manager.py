@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 gym_abs_path = os.path.dirname(os.path.abspath(gym.__file__))
 user_env_cache_name = '.envs.json'
-pip_exec = 'pip3' if sys.version_info[0] == 3 else 'pip2'
+pip_exec = 'pip3' if sys.version_info[0] == 3 else 'pip'
 
 class PackageManager(object):
     """
